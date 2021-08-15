@@ -7,7 +7,7 @@ document.getElementById('login-submit').addEventListener('click',function(){
     const userPass = userPassField.value;
 
     if(userEmail == 'x@gmail.com' && userPass == '123456'){
-        window.location.href = 'banking.html';
+        window.location.href = './banking.html';
     };
     
     //Redirect another page function
